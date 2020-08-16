@@ -117,6 +117,9 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+# vscode settings
+.vscode
+
 # mkdocs documentation
 /site
 
@@ -127,3 +130,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# image or data
+*.nii
+*.nii.gz
+*.tar
+*.tar.gz
+dataset.json
+*.hdf5
+
+# tf logs or checkpoints
+**/checkpoint
+**/graph.*
+**/model.*
+**/events.out*
+
