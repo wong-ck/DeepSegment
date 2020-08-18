@@ -1,5 +1,15 @@
 # DeepSegment
-Code repository for our manuscript on training CNN classifiers for semantic segmentation using partially annotated images.
+Code repository for our [manuscript](https://arxiv.org/abs/2008.07030) on training CNN classifiers for semantic segmentation using partially annotated images. If you find our code helpful, please cite our paper:
+```
+@misc{wong2020training,
+    title={Training CNN Classifiers for Semantic Segmentation using Partially Annotated Images: with Application on Human Thigh and Calf MRI},
+    author={Chun Kit Wong and Stephanie Marchesseau and Maria Kalimeri and Tiang Siew Yap and Serena S. H. Teo and Lingaraj Krishna and Alfredo Franco-Obregón and Stacey K. H. Tay and Chin Meng Khoo and Philip T. H. Lee and Melvin K. S. Leow and John J. Totman and Mary C. Stephenson},
+    year={2020},
+    eprint={2008.07030},
+    archivePrefix={arXiv},
+    primaryClass={eess.IV}
+}
+```
 
 Part of the code in this repository was developed with heavy reference to another repository on segmentation of cardiac MR images: <https://github.com/baumgach/acdc_segmenter>
 
